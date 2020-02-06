@@ -1,4 +1,9 @@
 *.zip
+*.ttf
+*.otf
+*.eot
+*.woff
+*.woff2
 
 backup-wpcm-admin-views-html-quick-edit-match.php
 class-usardb-wpcm-meta-box-match-details-custom.php

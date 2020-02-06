@@ -24,7 +24,7 @@ class USARDB_WPCM_Meta_Box_Match_Details extends WPCM_Meta_Box_Match_Details {
 		$referee          = get_post_meta( $post->ID, 'wpcm_referee', true );
 
 		$comps = get_the_terms( $post->ID, 'wpcm_comp' );
-		// phpcs:disable WordPress.WhiteSpace.ControlStructureSpacing.OpenBraceNotSameLine,WordPress.Security.EscapeOutput.UnsafePrintingFunction
+
 		if ( is_array( $comps ) )
 		{
 			$comp = $comps[0]->term_id;
