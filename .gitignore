@@ -4,6 +4,9 @@
 *.eot
 *.woff
 *.woff2
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
 
 backup-wpcm-admin-views-html-quick-edit-match.php
 class-usardb-wpcm-meta-box-match-details-custom.php
