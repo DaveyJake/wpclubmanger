@@ -1,0 +1,112 @@
+@import 'flag-icon.css';
+
+/** Global Styles */
+#side-sortables #post_name {
+    width: 100%;
+}
+
+.chosen-choices .search-choice {
+    margin: 0 5px 0 0 !important;
+}
+
+.chosen-choices .search-choice:last-child {
+    margin-right: 0 !important;
+}
+
+
+/** Players & Staff */
+.post-type-wpcm_staff #the-list tr:last-child td.image,
+.post-type-wpcm_player #the-list tr:last-child td.image {
+    border-bottom: 6px solid transparent !important;
+}
+
+.post-type-wpcm_player td.column-number {
+    text-align: left !important;
+}
+
+.post-type-wpcm_staff #image,
+.post-type-wpcm_player #image,
+.post-type-wpcm_staff td.column-image,
+.post-type-wpcm_player td.column-image {
+    width: 30px !important;
+}
+
+.post-type-wpcm_staff td.column-image,
+.post-type-wpcm_player td.column-image {
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 72px;
+    border: 6px solid #fff;
+}
+
+.post-type-wpcm_staff td.column-image img,
+.post-type-wpcm_player td.column-image img {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.post-type-wpcm_staff #email,
+.post-type-wpcm_staff #jobs,
+.post-type-wpcm_player #position {
+    width: 122px;
+}
+
+.post-type-wpcm_player #number {
+    width: 3.3125em;
+}
+
+.post-type-wpcm_player #debut,
+.post-type-wpcm_player #last {
+    width: 122px;
+}
+
+.post-type-wpcm_player .chosen-container .chosen-choices li.search-choice {
+    margin: 0;
+}
+
+
+/** Matches */
+.post-type-wpcm_match span.red {
+    color: #f00;
+}
+
+.post-type-wpcm_match #post_name {
+    width: 100%;
+}
+
+.post-type-wpcm_match label.wpcm-cb-block.friendly {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.post-type-wpcm_match span[aria-describedby]:hover {
+    cursor: help !important;
+}
+
+
+/** WPCM Taxonomies */
+[class*="taxonomy-wpcm_"]:not(.taxonomy-wpcm_venue) .wp-list-table .column-name {
+    width: 75%;
+}
+
+[class*="taxonomy-wpcm_"] .widefat .column-matches,
+[class*="taxonomy-wpcm_"] .widefat .column-players,
+[class*="taxonomy-wpcm_"] .widefat .column-hosted,
+[class*="taxonomy-wpcm_"] .widefat .column-capacity,
+[class*="taxonomy-wpcm_"] .widefat .column-ID {
+    text-align: center;
+}
+
+.column-matches, .column-players, .column-hosted, .column-ID {
+    width: 55px;
+}
+
+.column-capacity {
+    width: 76px;
+}
