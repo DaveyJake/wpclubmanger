@@ -1,2 +1,6 @@
-class-usardb-wpcm-meta-box-match-details-custom.php
+*.zip
+
 backup-wpcm-admin-views-html-quick-edit-match.php
+class-usardb-wpcm-meta-box-match-details-custom.php
+class-usardb-wpcm-meta-box-match-player-enhancements.php
+class-usardb-wpcm-meta-box-player-details.php
