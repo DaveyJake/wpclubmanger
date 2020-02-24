@@ -121,9 +121,9 @@ class USARDB_WPCM_Admin_Meta_Boxes extends WPCM_Admin_Meta_Boxes {
 
         add_meta_box( 'wpclubmanager-player-bio', __( 'Player Biography', 'wp-club-manager' ), function( $post ) {
             wp_editor( $post->post_content, 'post_content', array(
-                'name'=>'post_content',
+                'name'          => 'post_content',
                 'textarea_rows' => 10,
-                'tinymce' => array( 'resize' => false )
+                'tinymce'       => array( 'resize' => false )
             ) );
         }, 'wpcm_player', 'normal', 'high' );
 
@@ -134,7 +134,7 @@ class USARDB_WPCM_Admin_Meta_Boxes extends WPCM_Admin_Meta_Boxes {
         }
 
         add_meta_box( 'wpclubmanager-player-display', __( 'Player Stats Display', 'wp-club-manager'), 'WPCM_Meta_Box_Player_Display::output', 'wpcm_player', 'side' );
-        add_meta_box( 'postimagediv', __( 'Player Image'), 'post_thumbnail_meta_box', 'wpcm_player', 'side' );
+        add_meta_box( 'postimagediv', __( 'Player Image' ), 'post_thumbnail_meta_box', 'wpcm_player', 'side' );
 
         if ( is_club_mode() )
         {
